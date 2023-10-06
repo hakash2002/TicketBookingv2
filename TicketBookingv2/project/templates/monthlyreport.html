@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Your activity this month</title>
+</head>
+<body>
+    <h1>Movie Booking Details</h1>
+    <p>Hello {{ username }},</p>
+
+    {% if context|length > 0 %}
+    <p>Your booking details for the for the movies you watched are as follows:</p>
+    {% for k in context %}
+    <p style="font-weight: bold;">Your booking details for the movie "{{ k.movie_title }}"</p>
+    <ul>
+        <li> Watched in {{ k.venuename }} </li>
+        <li>Date: {{ k.booking_date }}</li>
+        <li>Time: {{ k.booking_time }}</li>
+        <li>Number of Tickets: {{ k.num_tickets }}</li>
+        <li>Total Amount: Rs.{{ k.total_amount }}</li>
+    </ul>
+    {% endfor %}
+    <p>Thank you for booking with us!</p>
+    {% else %}
+    <p>You haven't done any bookings last month :/</p>
+    {% endif %}
+</body>
+</html>

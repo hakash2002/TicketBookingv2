@@ -1,0 +1,329 @@
+.theatres {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #1e1f26;
+    display: block;
+}
+
+.a1 {
+    text-decoration: none;
+    color: #adadad;
+}
+.btn1 {
+    display: inline-block;
+    padding: .5rem 1rem;
+    background-color: #cd8c38;
+    border-radius: 2rem;
+    color: #1e1f26;
+    transition: .3s;
+}
+
+.btn1:hover {
+    background-color: #92601f;
+}
+
+.btn-l1 {
+    width: 100%;
+    text-align: center;
+}
+
+/* top bar */
+
+.top-bar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left-content1,
+.right-content1 {
+    display: flex;
+    align-items: center;
+}
+
+.title1 {
+    margin-right: 3rem;
+    color: #cd8c38;
+}
+
+.navigation1 {
+    display: flex;
+    list-style: none;
+}
+
+.navigation1 li {
+    margin-right: 1rem;
+    font-size: large;
+}
+
+.navigation1 li a:hover {
+    color: #cd8c38;
+}
+
+.active {
+    color: #cd8c38;
+}
+
+.profile-img-box {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* main container */
+
+.main-container1 {
+    color: #adadad;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* sidebar */
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #fff;
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .search-input {
+    width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .search-select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    outline: none;
+  }
+  .input1[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  .input1[type="search"]::placeholder {
+    color: #bbb;
+  }
+  
+  .input1.nosubmit1 {
+    border: 1px solid #555;
+    width: 100%;
+    padding: 9px 4px 9px 40px;
+     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }  
+
+.input1 {
+    margin-bottom: .6rem;
+}
+
+/* movies container */
+
+.upcoming-img-box1 {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+
+}
+
+.upcoming-title1 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: #cd8c38;
+    background-color: #1e1f26;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid #cd8c38;
+    font-weight: 500;
+}
+
+.btn-alt1 {
+    background-color: #1e1f26;
+    color: #cd8c38;
+    border: 1px solid #cd8c38;
+    margin-left: 1rem;
+}
+
+.btn-alt1:hover {
+    color: #1e1f26;
+    background-color: #cd8c38;
+}
+
+
+/* current movies */
+
+.movies-container1 {
+    padding-bottom: 2rem;
+}
+
+.current-movies1 {
+    display: block;
+    gap: 1.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+.current-movie1 {
+    background: linear-gradient(45deg, rgba(255, 255, 255, .05), rgba(205, 140, 56, .15));
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 20px;
+
+}
+
+.cm-img-box1 {
+    position: relative;
+    height: 150px;
+    width: auto;
+    margin-bottom: 1rem;
+    border-radius: .5rem;}
+
+.movie-title1 {
+    color: #fff;
+    margin-bottom: .2rem;
+}
+
+.booking1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.price1 {
+    color: #cd8c38;
+}
+.disabled-link {
+    pointer-events: none;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-weight: bold;
+    cursor:help;
+  }
+
+.MovieShowTimings_stickyDatesCon__eRPPR {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background: transparent;
+    margin-left: 90px;
+}
+.DatesMobile_cinemaDatesDiv__tK3R3 {
+    display: flex;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 8px 0;
+
+}
+.DatesMobile_cinemaDatesDiv__tK3R3 .DatesMobile_datesMonthWrap__PqVRz {
+    display: flex;
+    justify-content: center;
+
+}
+.DatesMobile_cinemaDatesActive__oHBpY{
+    background: #00b8f5;
+    border: 1px solid #00b8f5;
+    width: 42px;
+    height: 42px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    color: hsla(0,0%,6%,.54);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -.08px;
+    margin-left: 8px;
+}
+
+.DatesMobile_cinemaDates__PEteg {
+    width: 42px;
+    height: 42px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    color: hsla(0,0%,6%,.54);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -.08px;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 8px;
+}
+
+.DatesMobile_movieDateText__w8FxI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    flex-direction: column;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: -5px
+}
+.DatesMobile_movieDateText__w8FxI .DatesMobile_month__dP8jo {
+    font-size: 10px;
+    color: hsla(0,0%,6%,.54);
+    font-weight: 400;
+    letter-spacing: -.07px;
+    line-height: 10px;
+}
+.DatesMobile_movieDateText__w8FxI .DatesMobile_date__og6EI {
+    font-size: 14px;
+    color: #101010;
+    font-weight: 600;
+    letter-spacing: -.08px;
+    line-height: 14px;
+    margin-top: 2px;
+}
+
